@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سجتد</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Cairo', sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+            line-height: 1.8;
+            direction: rtl;
+        }
+
+        header {
+            background: linear-gradient(90deg, #6a11cb, #2575fc);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            background: #5f72ff;
+            border-radius: 8px;
+            transition: background 0.3s ease;
+        }
+
+        nav a:hover {
+            background: #2575fc;
+            transform: scale(1.05);
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        section {
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        #about {
+            background-color: #e0e7ff;
+        }
+
+        #portfolio {
+            background-color: #f0f4f8;
+        }
+
+        .project-card {
+            display: inline-block;
+            background-color: #fff;
+            margin: 15px;
+            padding: 20px;
+            width: 300px;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .project-card h3 {
+            font-size: 1.7rem;
+            margin-bottom: 10px;
+            color: #6a11cb;
+        }
+
+        .project-card i {
+            font-size: 3.5rem;
+            color: #5f72ff;
+            margin-bottom: 10px;
+        }
+
+        .project-card p {
+            color: #666;
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        .project-card a {
+            display: inline-block;
+            padding: 10px 25px;
+            background-color: #6a11cb;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .project-card a:hover {
+            background-color: #2575fc;
+        }
+
+        #social {
+            background-color: #e0e7ff;
+            padding-bottom: 50px;
+        }
+
+        .social-links a {
+            display: inline-block;
+            margin: 0 15px;
+            padding: 15px;
+            color: #fff;
+            background-color: #5f72ff;
+            border-radius: 50%;
+            text-decoration: none;
+            font-size: 2rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            background-color: #2575fc;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <h1>مرحبا بكم في موقعي الشخصي</h1>
+    <nav>
+        <a href="#about">من أنا</a>
+        <a href="#portfolio">أعمالي</a>
+        <a href="#projects">مشاريعي</a>
+        <a href="#social">التواصل الاجتماعي</a>
+    </nav>
+</header>
+
+<div class="container">
+    <section id="about">
+        <h2>من أنا</h2>
+        <p>هنا يمكنك كتابة وصف مختصر عن نفسك. أضف مهاراتك، اهتماماتك، وأي شيء آخر تحب أن تشاركه مع العالم!</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>أعمالي</h2>
+        <div class="portfolio-item">
+            <i class="fas fa-code"></i>
+            <p>تعرف على أحدث مشاريع البرمجة التي قمت بها.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>مشاريعي</h2>
+
+        <div class="project-card">
+            <i class="fas fa-terminal"></i>
+            <h3>تشغيل الأكواد</h3>
+            <p>منصة لتشغيل الأكواد بشكل فوري عبر الإنترنت.</p>
+            <a href="https://sjadprigramm.github.io/Runcodes/" target="_blank">تصفح</a>
+        </div>
+
+        <div class="project-card">
+            <i class="fas fa-city"></i>
+            <h3>مدينة البناء</h3>
+            <p>استكشاف مدينة افتراضية حيث لا حدود للإبداع.</p>
+            <a href="https://sjadprigramm.github.io/Sksjsisksk/" target="_blank">استكشاف</a>
+        </div>
+
+        <div class="project-card">
+            <i class="fas fa-store"></i>
+            <h3>متجر هلا</h3>
+            <p>منصة تسوق إلكتروني حديثة لعرض وشراء المنتجات.</p>
+            <a href="https://sjadprigramm.github.io/S/" target="_blank">تسوق الآن</a>
+        </div>
+    </section>
+
+    <section id="social">
+        <h2>التواصل الاجتماعي</h2>
+        <div class="social-links">
+            <a href="https://t.me/sjadiraqi" target="_blank"><i class="fab fa-telegram"></i></a>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 موقعي الشخصي الرائع</p>
+</footer>
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</body>
+</html>
